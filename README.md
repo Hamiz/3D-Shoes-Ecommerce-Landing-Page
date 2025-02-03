@@ -56,7 +56,7 @@ Setup & Installation 🏗️
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/shoes-landing-page.git
+git clone https://github.com/Hamiz/3D-Shoes-Ecommerce-Landing-Page.git
 cd shoes-landing-page
 npm install
 npm run dev
