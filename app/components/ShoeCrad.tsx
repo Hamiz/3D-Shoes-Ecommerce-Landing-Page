@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { ShoppingCart, Heart, View } from "lucide-react";
 import ShoeModelViewer from "./ShoeModelViewer ";
 
 interface Shoe {

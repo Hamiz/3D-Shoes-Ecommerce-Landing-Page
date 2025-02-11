@@ -37,7 +37,6 @@ const testimonials = [
 ];
 
 const HomeScreen = () => {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedShoe, setSelectedShoe] = useState<Shoe | null>(null);
 
@@ -446,7 +445,7 @@ const HomeScreen = () => {
 
                   <div className="relative z-10">
                     <p className="text-gray-300 text-base mb-4 italic leading-relaxed font-light">
-                      "{testimonial.text}"
+                      {testimonial.text}
                     </p>
                     <p className="text-blue-400 font-medium text-sm tracking-wide">
                       - {testimonial.name}
